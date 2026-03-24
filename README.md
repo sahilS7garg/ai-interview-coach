@@ -83,3 +83,22 @@ The ML service predicts coding problem difficulty using:
 * Code execution engine
 * ChatGPT style coding assistant
 * Company-wise problem sets
+---
+
+## 🚀 Endee Vector Database Integration
+
+This project explores the use of Endee, a high-performance vector database, for improving recommendation systems.
+
+🔗 Endee Repository: https://github.com/endee-io/endee
+
+### How Endee can be used in this project:
+
+- Store vector embeddings of coding problems
+- Perform similarity search for better problem recommendations
+- Enhance personalization using vector-based matching
+
+### Example Use Case:
+
+The ML service can generate embeddings of problem descriptions using TF-IDF or advanced models, and Endee can be used to efficiently retrieve similar problems based on user performance.
+
+This improves the accuracy and scalability of the recommendation system.
